@@ -4,8 +4,8 @@ const Projects = () => {
     return (
         <div>
             <h3 className="text-3xl font-semibold text-center my-10 text-white ">My Projects</h3>
-            <div className="grid grid-cols-2">
-                <div className="card card-compact w-[500px] bg-base-100 shadow-xl border-blue-600 border-2 ">
+            <div className="grid grid-cols-1 md:grid-cols-2">
+                <div className="card card-compact  md:w-[300px] lg:w-[500px] bg-base-100 shadow-xl border-blue-600 border-2 ">
                     <figure><img src="../../public/project-1.png" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title text-white">Career Fair</h2>
@@ -42,7 +42,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-[500px] bg-base-100 shadow-xl border-blue-600 border-2 ">
+                <div className="card card-compact  md:w-[300px] lg:w-[500px] bg-base-100 shadow-xl border-blue-600 border-2 ">
                     <figure><img src="../../public/project-2.png" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title text-white">Weather API</h2>

@@ -5,10 +5,10 @@ import { FaGithub } from "react-icons/fa6";
 
 const Contact = () => {
     return (
-        <div className="my-12">
-            <h3 className="text-4xl font-semibold text-white text-center  mt-5">Contact with Me</h3>
-            <div className="flex justify-center items-center gap-10 ">
-                <div className="w-1/3 mt-10">
+        <div className="my-3 md:my-7 lg:my-12">
+            <h3 className="text-4xl font-semibold text-white text-center mt-5">Contact with Me</h3>
+            <div className="flex md:ml-4 lg:ml-0 justify-center items-center md:gap-10 flex-col md:flex-row">
+                <div className="md:w-1/3 mt-10">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus voluptatem nesciunt placeat, in soluta eum consectetur quibusdam, deserunt pariatur eveniet dolorum voluptatibus alias architecto est repellendus rem neque laudantium. Dolorem tempora qui cumque corporis harum placeat eius, dolores ex earum, deserunt est non voluptatem omnis dicta eaque reiciendis sapiente.</p>
                     <div className="text-white">
                         <p className="rounded-lg border-2 p-4 my-3 flex items-center gap-3"><MdOutlineEmail />
@@ -19,7 +19,7 @@ const Contact = () => {
                             shakib-shajid</p>
                     </div>
                 </div>
-                <div className=" px-6 lg:px-8 w-2/3">
+                <div className="md:px-6 lg:px-8 w-2/3">
 
                     <form className="mx-auto mt-10 max-w-xl">
                         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
