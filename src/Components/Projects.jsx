@@ -6,10 +6,10 @@ const Projects = () => {
             <h3 className="text-3xl font-semibold text-center my-10 text-white ">My Projects</h3>
             <div className="grid grid-cols-1 md:grid-cols-2">
                 <div className="card card-compact  md:w-[300px] lg:w-[500px] bg-base-100 shadow-xl border-blue-600 border-2 ">
-                    <figure><img src="../../public/project-1.png" alt="Shoes" /></figure>
+                    <figure><img src="../project-1.png" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title text-white">Career Fair</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>This is an event management agency. They manage career fair events. In this website people can visit and see all the events of us. People need to login and see details here.</p>
                         <div className="card-actions mt-3">
                             <Link target="_blank" to="https://react-career-fair.web.app/"><button className="btn btn-info">Live Link</button></Link>
                             <Link target="_blank" to="https://github.com/Shakib-Shajid/react-career-fair" ><button className="btn btn-info">Source Code</button></Link>
@@ -43,10 +43,10 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="card card-compact  md:w-[300px] lg:w-[500px] bg-base-100 shadow-xl border-blue-600 border-2 ">
-                    <figure><img src="../../public/project-2.png" alt="Shoes" /></figure>
+                    <figure><img src="../project-2.png" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title text-white">Weather API</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>This is a weather checker website. We can easily check any country weather quickly by using this website. There has also some features like sunset, humidity, pressure and time also.</p>
                         <div className="card-actions mt-3">
                             <Link target="_blank" to="https://weather-api-taupe.vercel.app/"><button className="btn btn-info">Live Link</button></Link>
                             <Link target="_blank" to="https://github.com/Shakib-Shajid/weather-api" ><button className="btn btn-info">Source Code</button></Link>
