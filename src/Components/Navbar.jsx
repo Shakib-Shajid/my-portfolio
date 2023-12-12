@@ -8,7 +8,7 @@ const Navbar = () => {
                 <NavLink
                     to="/"
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#FF444A]  font-bold" : ""
+                        isPending ? "pending" : isActive ? "text-[#2564eb]  font-bold" : ""
                     }
                 >
                     Home
@@ -18,7 +18,7 @@ const Navbar = () => {
                 <NavLink
                     to="/about"
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#FF444A]  font-bold" : ""
+                        isPending ? "pending" : isActive ? "text-[#2564eb]  font-bold" : ""
                     }
                 >
                     About
@@ -26,9 +26,19 @@ const Navbar = () => {
             </li>
             <li>
                 <NavLink
+                    to="/skills"
+                    className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "text-[#2564eb]  font-bold" : ""
+                    }
+                >
+                    Skills
+                </NavLink>
+            </li>
+            <li>
+                <NavLink
                     to="/projects"
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#FF444A]  font-bold" : ""
+                        isPending ? "pending" : isActive ? "text-[#2564eb]  font-bold" : ""
                     }
                 >
                     Projects
@@ -38,7 +48,7 @@ const Navbar = () => {
                 <NavLink
                     to="/contact"
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#FF444A] font-bold" : ""
+                        isPending ? "pending" : isActive ? "text-[#2564eb] font-bold" : ""
                     }
                 >
                     Contact
@@ -48,7 +58,7 @@ const Navbar = () => {
 
         </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar text-white">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
