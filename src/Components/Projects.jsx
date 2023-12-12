@@ -11,7 +11,7 @@ const Projects = () => {
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div className="card-actions mt-3">
                             <button className="btn btn-info ">Live Link</button>
-                            <button className="btn btn-info ">Serer Code</button>
+                            <button className="btn btn-info ">Server Code</button>
                             <button className="btn btn-info ">Client Codes</button>
                             <button className="btn btn-info ">Details</button>
                         </div>
@@ -24,7 +24,7 @@ const Projects = () => {
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div className="card-actions mt-3">
                             <button className="btn btn-info ">Live Link</button>
-                            <button className="btn btn-info ">Serer Code</button>
+                            <button className="btn btn-info ">Server Code</button>
                             <button className="btn btn-info ">Client Codes</button>
                             <button className="btn btn-info ">Details</button>
                         </div>
