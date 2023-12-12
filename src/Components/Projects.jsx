@@ -69,6 +69,7 @@ const Projects = () => {
                                     <h3 className="text-3xl font-semibold text-white my-3">Technology</h3>
                                     <ul className="text-white ml-4 list-decimal" >
                                         <li>React</li>
+                                        <li>Javascript</li>
                                         <li>CSS 3</li>
                                         <li>HTML 5</li>
                                     </ul>
