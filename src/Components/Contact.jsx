@@ -2,7 +2,7 @@
 const Contact = () => {
     return (
         <div>
-            <h3>Contact pages</h3>
+            <h3>Contact form</h3>
         </div>
     );
 };
