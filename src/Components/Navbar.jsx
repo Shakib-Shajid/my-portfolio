@@ -48,7 +48,7 @@ const Navbar = () => {
                 <NavLink
                     to="/contact"
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#2564eb] font-bold" : ""
+                        isPending ? "pending" : isActive ? "text-[#2564eb]  font-bold" : ""
                     }
                 >
                     Contact
@@ -58,7 +58,7 @@ const Navbar = () => {
 
         </>
     return (
-        <div className="navbar text-white">
+        <div className="navbar text-white ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

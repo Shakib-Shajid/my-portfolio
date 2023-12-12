@@ -2,8 +2,8 @@
 
 const About = () => {
     return (
-        <div>
-            <h3 className="text-5xl font-bold mt-5 text-center justify-center">About Me</h3>
+        <div className="my-10">
+            <h3 className="text-5xl font-bold space-y-5 text-center justify-center">About Me</h3>
             <div className="flex gap-6 items-center">
                 <img src="../../public/shakib.png" alt="" />
                 <div>

@@ -6,6 +6,7 @@ import Projects from "../Components/Projects";
 import Contact from "../Components/Contact";
 import Error from "../Components/Error";
 import Skills from "../Components/Skills";
+import Main from "../Components/Main";
 
 const router = createBrowserRouter([
     {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home></Home>
+                element: <Main></Main>
             },
             {
                 path: '/about',
