@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 const Projects = () => {
     return (
         <div>
-            <h3 className="text-3xl font-semibold text-center my-10 text-white ">My Projects</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2">
+            <h3 className="text-3xl md:text-5xl font-semibold text-center my-10 text-white ">My Projects</h3>
+            <div className="gap-5 md:flex md:justify-center md:flex-wrap">
                 <div className="card card-compact  md:w-[300px] lg:w-[500px] bg-base-100 shadow-xl border-blue-600 border-2 ">
                     <figure><img src="../project-1.png" alt="Shoes" /></figure>
-                    <div className="card-body">
+                    <div className="card-body text-justify">
                         <h2 className="card-title text-white">Career Fair</h2>
                         <p>This is an event management agency. They manage career fair events. In this website people can visit and see all the events of us. People need to login and see details here.</p>
                         <div className="card-actions mt-3">
@@ -44,7 +44,7 @@ const Projects = () => {
                 </div>
                 <div className="card card-compact  md:w-[300px] lg:w-[500px] bg-base-100 shadow-xl border-blue-600 border-2 ">
                     <figure><img src="../project-2.png" alt="Shoes" /></figure>
-                    <div className="card-body">
+                    <div className="card-body text-justify">
                         <h2 className="card-title text-white">Weather API</h2>
                         <p>This is a weather checker website. We can easily check any country weather quickly by using this website. There has also some features like sunset, humidity, pressure and time also.</p>
                         <div className="card-actions mt-3">

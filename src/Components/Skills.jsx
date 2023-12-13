@@ -2,8 +2,8 @@
 const Skills = () => {
     return (
         <div>
-            <h3 className="text-3xl font-semibold text-center my-10">My Skills</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <h3 className="text-white text-3xl md:text-5xl font-semibold text-center my-10">My Skills</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 <div className=" border-blue-600 border-2 card w-80 bg-base-100 shadow-xl">
                     <figure><img className="mt-8 w-1/2" src="../html.png" alt="html" /></figure>
                     <div className="card-body">

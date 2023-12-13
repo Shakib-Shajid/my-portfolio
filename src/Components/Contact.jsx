@@ -1,22 +1,24 @@
 import { BsLinkedin } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 
 const Contact = () => {
     return (
-        <div className="my-3 md:my-7 lg:my-12">
+        <div className="my-3 md:my-7 lg:my-12 border-blue-600  border-2 px-3 pb-4">
             <h3 className="text-4xl font-semibold text-white text-center mt-5">Contact with Me</h3>
-            <div className="flex md:ml-4 lg:ml-0 justify-center items-center md:gap-10 flex-col md:flex-row">
-                <div className="md:w-1/3 mt-10">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus voluptatem nesciunt placeat, in soluta eum consectetur quibusdam, deserunt pariatur eveniet dolorum voluptatibus alias architecto est repellendus rem neque laudantium. Dolorem tempora qui cumque corporis harum placeat eius, dolores ex earum, deserunt est non voluptatem omnis dicta eaque reiciendis sapiente.</p>
+            <div className="flex md:ml-4 lg:ml-0 justify-center items-center md:gap-10 flex-col md:flex-row ">
+                <div className="md:w-1/3 mt-10 mx-2 lg:mx-0">
+                    <h3 className="text-3xl font-medium text-white">Work with Me...</h3>
+                    <p className="my-5">Let's Contact me for your needs. I am interested in working with people. Hire me... </p>
                     <div className="text-white">
-                        <p className="rounded-lg border-2 p-4 my-3 flex items-center gap-3"><MdOutlineEmail />
-                            shakibalshajid1682@gmail.com</p>
-                        <p className="rounded-lg border-2 p-4 my-3 flex items-center gap-3"><BsLinkedin />
-                            Shakib Al Shajid</p>
-                        <p className="rounded-lg border-2 p-4 my-3 flex items-center gap-3"><FaGithub />
-                            shakib-shajid</p>
+                        <Link to="mailto: shakibalshajid1682@gmail.com"><p className="rounded-lg border-2 p-4 my-3 flex items-center gap-3"><MdOutlineEmail />
+                            shakibalshajid1682@gmail.com</p></Link>
+                        <Link to="https://www.linkedin.com/in/shakibalshajid/" target="_blank"><p className="rounded-lg border-2 p-4 my-3 flex items-center gap-3"><BsLinkedin />
+                            Shakib Al Shajid</p></Link>
+                        <Link to="https://github.com/Shakib-Shajid" target="_blank"><p className="rounded-lg border-2 p-4 my-3 flex items-center gap-3"><FaGithub />
+                            shakib-shajid</p></Link>
                     </div>
                 </div>
                 <div className="md:px-6 lg:px-8 w-2/3">
@@ -73,8 +75,8 @@ const Contact = () => {
                         <button className="btn btn-info  w-full mt-5 text-white">Send Message</button>
                     </form>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 };
 export default Contact;

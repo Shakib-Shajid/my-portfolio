@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 
 const Navbar = () => {
@@ -58,7 +59,7 @@ const Navbar = () => {
 
         </>
     return (
-        <div className="navbar text-white ">
+        <div className="navbar text-white sticky top-0 z-50 bg-black rounded-xl ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -68,15 +69,15 @@ const Navbar = () => {
                         {a}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Shakib Al Shajid</a>
+                <a className="btn btn-ghost text-xl hidden md:block pt-2">Shakib Al Shajid</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     {a}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn btn-info font-bold">Download Resume</a>
+            <div className="navbar-end ">
+                <a className="btn btn-info font-bold " href="./Shakib_Al_Shajid's_Resume.pdf" download><MdOutlineFileDownload className="text-xl" />Download Resume</a>
             </div>
         </div>
     );
