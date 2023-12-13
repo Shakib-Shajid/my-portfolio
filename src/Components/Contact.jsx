@@ -6,8 +6,10 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
-        <div className="my-3 md:my-7 lg:my-12 border-blue-600  border-2 px-3 pb-4">
-            <h3 className="text-4xl font-semibold text-white text-center mt-5">Contact with Me</h3>
+        <div className="my-3 md:my-7 lg:my-12 px-3 pb-4">
+            <div className="flex justify-center w-2/3 md:w-1/3 border-b-2 rounded-xl mx-auto leading-3 ">
+                <h3 className="text-2xl md:text-4xl font-semibold text-white text-center mt-5 my-3 md:my-6">Contact with Me</h3>
+            </div>
             <div className="flex md:ml-4 lg:ml-0 justify-center items-center md:gap-10 flex-col md:flex-row ">
                 <div className="md:w-1/3 mt-10 mx-2 lg:mx-0">
                     <h3 className="text-3xl font-medium text-white">Work with Me...</h3>

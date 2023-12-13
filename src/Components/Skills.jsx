@@ -2,7 +2,11 @@
 const Skills = () => {
     return (
         <div>
-            <h3 className="text-white text-3xl md:text-5xl font-semibold text-center my-10">My Skills</h3>
+
+            <div className=" flex justify-center w-2/3 md:w-1/3 border-b-2 rounded-xl mx-auto leading-3 my-8">
+                <h3 className="text-white text-3xl md:text-5xl font-semibold text-center my-3 md:my-6">My Skills</h3>
+
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 <div className=" border-blue-600 border-2 card w-80 bg-base-100 shadow-xl">
                     <figure><img className="mt-8 w-1/2" src="../html.png" alt="html" /></figure>

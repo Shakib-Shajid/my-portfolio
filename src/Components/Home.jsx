@@ -21,7 +21,7 @@ const Home = () => {
                     />
                 </h3>
                 {/* ........................... */}
-                <p className="text-lg mx-2 lg:mx-0 w-3/4 text-justify">Welcome to my portfolio website! I am a front-end web developer. I design and build attractive, user-friendly websites. Check my github to know more about my design.</p>
+                <p className="text-lg mx-2 lg:mx-0 w-3/4 md:text-justify">Welcome to my portfolio website! I am a front-end web developer. I design and build attractive, user-friendly websites. Check my github to know more about my design.</p>
             </div>
             <img className='rounded-full' src="../shakib.png" alt="" />
             {/* <img className='rounded-full border-2 border-white' src="../public/user.png" alt="none" /> */}

@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 const Projects = () => {
     return (
         <div>
-            <h3 className="text-3xl md:text-5xl font-semibold text-center my-10 text-white ">My Projects</h3>
+            <div className="flex justify-center w-2/3 md:w-1/3 border-b-2 rounded-xl mx-auto leading-3 my-8">
+                <h3 className="text-3xl md:text-5xl font-semibold text-center md:my-6 text-white my-3">My Projects</h3>
+            </div>
             <div className="gap-5 md:flex md:justify-center md:flex-wrap">
                 <div className="card card-compact  md:w-[300px] lg:w-[500px] bg-base-100 shadow-xl border-blue-600 border-2 ">
                     <figure><img src="../project-1.png" alt="Shoes" /></figure>

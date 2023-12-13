@@ -69,7 +69,7 @@ const Navbar = () => {
                         {a}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl hidden md:block pt-2">Shakib Al Shajid</a>
+                <a className="btn btn-ghost text-xl hidden md:block pt-2 uppercase" href='/'>Shakib Al Shajid</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
