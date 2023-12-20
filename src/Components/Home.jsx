@@ -4,8 +4,8 @@ import { Typewriter } from 'react-simple-typewriter'
 const Home = () => {
     return (
         <div className="flex flex-col md:flex-row md:gap-3 lg:gap-6 items-center my-3 md:my-5 lg:my-10">
-            <div>
-                <h3 className="text-5xl lg:text-7xl text-center md:text-start font-semibold mb-5 mx-2 lg:mx-0 text-white">I am Shakib <br /> <span className="text-5xl lg:text-7xl text-center md:text-start"> Al Shajid</span></h3>
+            <div >
+                <h3 className="text-5xl lg:text-7xl text-center md:text-start font-semibold mb-5 mx-2 lg:mx-0 text-white" >I am Shakib <br /> <span className="text-5xl lg:text-7xl text-center md:text-start"> Al Shajid</span></h3>
                 {/* ........................... */}
                 <h3 className='text-3xl font-bold my-3  mx-2 lg:mx-0'>
                     <Typewriter
