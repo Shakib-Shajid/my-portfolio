@@ -9,3 +9,7 @@ html {
 html.dark-mode {
     --cursor-color: #fff
 }
+
+img {
+    pointer-events: none;
+}

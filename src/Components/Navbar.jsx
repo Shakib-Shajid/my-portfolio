@@ -77,7 +77,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end ">
-                <a className="btn btn-info font-bold " href="./Shakib_Al_Shajid's_Resume.pdf" download><MdOutlineFileDownload className="text-xl" />Download Resume</a>
+                <a className="btn btn-info font-bold " href="../assets/Shakib_Al_Shajid_Resume.pdf" download="Shakib_Al_Shajid_Resume.pdf"><MdOutlineFileDownload className="text-xl" />Download Resume</a>
             </div>
         </div>
     );
