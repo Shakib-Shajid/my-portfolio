@@ -45,6 +45,12 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className=" border-blue-600 border-2 card w-80 bg-base-100 shadow-xl">
+                    <figure><img className="mt-20 w-2/3" src="../nextjs.png" alt="nextjs" /></figure>
+                    <div className="card-body">
+                        <h2 className="text-xl mt-16 font-medium text-center">Next JS</h2>
+                    </div>
+                </div>                
+                <div className=" border-blue-600 border-2 card w-80 bg-base-100 shadow-xl">
                     <figure><img className="mt-8 w-1/2" src="../node-js.png" alt="node-js" /></figure>
                     <div className="card-body">
                         <h2 className="text-xl font-medium text-center">Node JS</h2>
@@ -81,12 +87,12 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className=" border-blue-600 border-2 card w-80 bg-base-100 shadow-xl">
-                    <figure><img className="mt-8 " src="../vsCode.png" alt="vscode" /></figure>
+                    <figure><img className="mt-8" src="../vsCode.png" alt="vscode" /></figure>
                     <div className="card-body">
                         <h2 className="text-xl font-medium text-center">VS Code</h2>
                     </div>
                 </div>
-
+            
             </div>
         </div>
     );
