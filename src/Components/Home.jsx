@@ -9,7 +9,7 @@ const Home = () => {
                 {/* ........................... */}
                 <h3 className='text-3xl font-bold my-3  mx-2 lg:mx-0'>
                     <Typewriter
-                        words={["I am a Junior Front End Developer", "I am an SEO Expert"]}
+                        words={["I am a Junior Web Developer", "I am an SEO Expert"]}
                         loop={100}
                         cursor
                         cursorStyle='_'
@@ -21,7 +21,7 @@ const Home = () => {
                     />
                 </h3>
                 {/* ........................... */}
-                <p className="text-lg mx-2 lg:mx-0 w-3/4 md:text-justify">Welcome to my portfolio website! I am a front-end web developer. I design and build attractive, user-friendly websites. Check my github to know more about my design.</p>
+                <p className="text-lg mx-2 lg:mx-0 w-3/4 md:text-justify">Welcome to my portfolio website! I am a web developer. I design and build attractive, user-friendly websites. Check my github to know more.</p>
             </div>
             <img className='rounded-full' src="../shakib.png" alt="" />
             {/* <img className='rounded-full border-2 border-white' src="../public/user.png" alt="none" /> */}
