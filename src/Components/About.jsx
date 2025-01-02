@@ -12,8 +12,8 @@ const About = () => {
                 <img className='rounded-full' src="../shakib.png" alt="" />
                 <div className="border-2 border-blue-600  p-4 rounded-lg">
                     <h3 className="text-white text-4xl font-semibold my-8">I&apos;m Shakib Al Shajid</h3>
-                    <p className="md:text-base lg:text-lg text-justify">I am a Web Developer. I use React and Next JS for my project. I also use Tailwind CSS, Daisy UI, MongoDB, Express, Nextjs, Firebase and Next Auth for my projects. <br />
-                        I like to do coding and it is my passion. It is my hobby to be a web developer. Now I am focusing on the backend and want to make myself a MERN stack developer. I need more practice and hard work to achieve my goal. <span className="font-bold  text-white">&quot;There is no shortcut to success.&quot;</span></p>
+                    <p className="md:text-base lg:text-lg text-justify">I am a Web Developer. I use React and Next JS for my projects. I also use Tailwind CSS, Daisy UI, MongoDB, Express, Nextjs, Firebase and Next Auth for my projects. <br />
+                        I like to do coding and it is my passion. It is my target to be a MERN stack developer. I need more practice and hard work to achieve my goal. <span className="font-bold  text-white">&quot;There is no shortcut to success.&quot;</span></p>
 
                     <h3 className="text-white text-2xl font-medium mt-5">Want to know more </h3>
                     <div className="text-2xl flex gap-3 my-5">

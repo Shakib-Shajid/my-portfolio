@@ -9,7 +9,7 @@ const Home = () => {
                 {/* ........................... */}
                 <h3 className='text-3xl font-bold my-3  mx-2 lg:mx-0'>
                     <Typewriter
-                        words={["I am a Junior Web Developer", "I am an SEO Expert"]}
+                        words={["I am a Web Developer"]}
                         loop={100}
                         cursor
                         cursorStyle='_'
